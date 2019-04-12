@@ -10,6 +10,7 @@ public class UserController {
     @RequestMapping("selectAll")
     @ResponseBody
     public String selectAll(){
+        System.out.println("123456");
         return "Hello My Three SpringBoot";
     }
 }
